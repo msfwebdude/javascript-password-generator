@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Generate Passwords</title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+</head>
+
+<body>
+	<p><br /></p>
+	<div id="card">
+		<h1>Generate Passwords</h1>
+		Generate
+		<input type="number" id="numberOfPasswords" value="100" class="smolInput" inputmode="numeric">
+		passwords with
+		<input type="number" id="numberOfCharacters" value="64" class="smolInput" inputmode="numeric">
+		characters each using method
+		<select id="passwordMethod">
+			<option selected value='w4w'>word number word...</option>
+		</select>
+		<p />
+		<button onclick="generatePasswords()" id="goBtn">&#x25b6;&nbsp;GO</button>
+		<p />
+		<textarea id="passwordList"></textarea>
+		<p><br /></p>
+		<p><br /></p>
+		<div id="log"></div>
+		<p><br /></p>
+	</div>
+
+	<script src="./assets/js/words.js"></script>
+	<script src="./assets/js/main.js"></script>
+</body>
+
+</html>
