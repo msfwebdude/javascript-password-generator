@@ -17,12 +17,13 @@
 		<input type="number" id="numberOfCharacters" value="64" class="smolInput" inputmode="numeric">
 		characters each using method
 		<select id="passwordMethod">
-			<option selected value='w4w'>word number word...</option>
+			<option value='w4w'>word number word...</option>
+			<option value='rnd'>Random characters</option>
 		</select>
 		<p />
 		<button onclick="generatePasswords()" id="goBtn">&#x25b6;&nbsp;GO</button>
 		<p />
-		<textarea id="passwordList"></textarea>
+		<textarea id="passwordList" spellcheck="false" ondblclick="selectWholeLine(this)"></textarea>
 		<p><br /></p>
 		<p><br /></p>
 		<div id="log"></div>
