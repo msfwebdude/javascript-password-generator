@@ -24,6 +24,7 @@ function generatePasswords() {
                 
                 self.passwordList.value += password + "\n";
                 i++;
+                x++;
             }
             break;
 
