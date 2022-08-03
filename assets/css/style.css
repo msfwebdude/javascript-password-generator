@@ -43,13 +43,13 @@ body
 
 #card
 {
-    width: 800px;
+    width: 1000px;
     height: 600px;
     margin: auto;
     border: solid 1px black;
     text-align: center;
     border-radius: 15px;
-    background-image: linear-gradient(45deg, #CCCCFF, #FFCCCC);
+    background-image: linear-gradient(45deg, #CCCCFF, #CCFFCC);
     border-top-color: #666666;
     border-left-color: #666666;
 }
@@ -63,7 +63,7 @@ body
 
 #passwordList
 {
-    width: 600px; 
+    width: 800px; 
     height: 400px; 
     font-size: 10pt;
     font-family: 'Lucida Console', monospace;
